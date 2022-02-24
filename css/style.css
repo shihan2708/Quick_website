@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+.row-m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    padding-left: 3em;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+span {
+    color: #008AFF;
+}
+.text-center {
+    /* margin: auto; */
+    text-align: center;
+}
+.gap{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.hero h1 {
+    /* color: red; */
+    font-size: 50px;
+    width: 709px;
+    margin: auto;
+}
+.hero{
+
+}
+.hero p {
+    width: 709px;
+    margin: auto;
+    margin-top: 1em;
+}
+.hero img {
+    margin: auto;
+    width: 511px;
+    margin-top: 3em;
+}
+
+a:hover {
+    color: #008aff;
+    font-size: 18px;
+}
+
+.row-3k {
+    display: flex;
+    margin: auto;
+    width: 49em;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3em; */
+    /* margin: 4em; */
+    margin-bottom: 3em;
+    margin-top: 6em;
+}
+
+.col-3kl {
+    text-align: end;
+    margin-right: 3em;
+}
+.col-3kl h1 {
+    color: #F15767;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+}
+.col-3kr h1 {
+    color: #0f2656;
+    font-size: 39px;
+}
+
+ .col-3kl   p {
+    font-size: 20px;
+}
+.row-c{
+    display: flex;
+
+}
+.col-c img {
+    max-width: 100%;
+}
+.col-c {
+    /* background-color: red; */
+    border-style: solid;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border-width: 1px;
+    border-color: #b5b5b5;
+    border-radius: 12px;
+     width: 40em;
+    
+}
+.footer span {
+    color: white;
+    font-weight: 700;
+}
+.footer {
+    background-color: #008aff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.colour-1 {
+    background-color: #fdebed;
+}
+.colour-2 {
+    background-color: #ebf9f4;
+}
+.colour-3 {
+    background-color: #fff7e8;
+}
